@@ -37,14 +37,18 @@ N = int(input().strip())
 
 if N % 2 != 0:
     print ('Weird')
-elif N % 2 == 0 and N in range(22, 55+1):
+elif N % 2 == 0 and (N > 2 and N < 5+1):
     print('Not Weird')
-elif N % 2 == 0 and N in range(66, 2020+1):
+elif N % 2 == 0 and (N > 6 and N < 20+1):
     print ('Weird')
-elif N % 2 == 0 and N > 2020:
+elif N % 2 == 0 and N > 20:
     print ('Not Weird')
 else:
     print ('Error')
+    
+
+
+
     
 
 
