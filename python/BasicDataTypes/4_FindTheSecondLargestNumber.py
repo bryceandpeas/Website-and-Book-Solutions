@@ -4,9 +4,9 @@ Hackerank Domains: https://www.hackerrank.com/domains
 
 Python https://www.hackerrank.com/domains/python
 
-Introduction: https://www.hackerrank.com/domains/python/py-introduction
+Basic Data Types: https://www.hackerrank.com/domains/python/py-basic-data-types
 
-Hackerrank - Python - Data Types - Find the Second Largest Number
+Hackerrank - Python - Basic Data Types - Find the Second Largest Number
 
 Let's delve into one of the most basic data types in Python, the list. You are given NN numbers. Store them in a list and find the second largest number.
 

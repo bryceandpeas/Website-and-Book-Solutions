@@ -4,9 +4,9 @@ Hackerank Domains: https://www.hackerrank.com/domains
 
 Python https://www.hackerrank.com/domains/python
 
-Introduction: https://www.hackerrank.com/domains/python/py-introduction
+Basic Data Types: https://www.hackerrank.com/domains/python/py-basic-data-types
 
-Hackerrank - Python - Data Types - Lists
+Hackerrank - Python - Basic Data Types - Lists
 
 When we talk about storing multiple values in a container-like data structure, the first thing that comes to mind is a list.
 

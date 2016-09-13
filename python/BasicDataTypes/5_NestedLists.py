@@ -4,9 +4,9 @@ Hackerank Domains: https://www.hackerrank.com/domains
 
 Python https://www.hackerrank.com/domains/python
 
-Introduction: https://www.hackerrank.com/domains/python/py-introduction
+Basic Data Types: https://www.hackerrank.com/domains/python/py-basic-data-types
 
-Hackerrank - Python - Data Types - Nested Lists
+Hackerrank - Python - Basic Data Types - Nested Lists
 
 Let's implement a nested list! A nested list is a list that contains another list (i.e.: a list of lists). For example:
 

@@ -4,9 +4,9 @@ Hackerank Domains: https://www.hackerrank.com/domains
 
 Python https://www.hackerrank.com/domains/python
 
-Introduction: https://www.hackerrank.com/domains/python/py-introduction
+Basic Data Types: https://www.hackerrank.com/domains/python/py-basic-data-types
 
-Hackerrank - Python - Data Types - Tuples
+Hackerrank - Python - Basic Data Types - Tuples
 
 Tuples are data structures that look a lot like lists. Unlike lists, tuples are immutable (meaning that they cannot be modified once created). This restricts their use because we cannot add, remove, or assign values; however, it gives us an advantage in space and time complexities.
 

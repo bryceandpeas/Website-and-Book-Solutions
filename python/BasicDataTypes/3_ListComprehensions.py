@@ -4,9 +4,9 @@ Hackerank Domains: https://www.hackerrank.com/domains
 
 Python https://www.hackerrank.com/domains/python
 
-Introduction: https://www.hackerrank.com/domains/python/py-introduction
+Basic Data Types: https://www.hackerrank.com/domains/python/py-basic-data-types
 
-Hackerrank - Python - Data Types - List Comprehensions
+Hackerrank - Python - Basic Data Types - List Comprehensions
 
 Let's learn about list comprehensions! You are given three integers X,YX,Y and ZZ representing the dimensions of a cuboid. You have to print a list of all possible coordinates on a 3D grid where the sum of XXii ++ YYii ++ ZZii is not equal to NN. If X=2X=2, the possible values of XXii can be 00, 11 and 22. The same applies to YY and ZZ.
 
