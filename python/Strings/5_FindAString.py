@@ -4,7 +4,7 @@ Hackerank Domains: https://www.hackerrank.com/domains
 
 Python https://www.hackerrank.com/domains/python
 
-Introduction: https://www.hackerrank.com/domains/python/py-strings
+Strings: https://www.hackerrank.com/domains/python/py-strings
 
 Hackerrank - Python - Strings - Find a String
 
