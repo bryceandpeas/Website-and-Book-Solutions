@@ -6,7 +6,8 @@ Python https://www.hackerrank.com/domains/python
 
 Basic Data Types: https://www.hackerrank.com/domains/python/py-basic-data-types
 
-Hackerrank - Python - Basic Data Types - Nested Lists
+Hackerrank - Python - Basic Data Types - Finding the percentage
+
 
 You have a record of  students. Each record contains the student's name, and their percent marks in Maths, Physics and Chemistry. The marks can be floating values. The user enters some integer followed by the names and marks for  students. You are required to save the record in a dictionary data type. The user then enters a student's name. Output the average percentage marks obtained by that student, correct to two decimal places.
 
@@ -34,17 +35,15 @@ Explanation
 
 Marks for Malika are  whose average is 
 
-contact: bryce@brycefury.com
-
 '''
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-N = int(input())
+N = int(raw_input())
 l = list()
 d = dict()
 
 for i in range(N):
-    dat = input()
+    dat = raw_input()
     l = dat.split()
     sdat = l[0]
     l.remove(l[0])
@@ -52,7 +51,7 @@ for i in range(N):
     nl = list(map(float, l))
     d[sdat] = nl
     
-name = input()
+name = raw_input()
 
 t = 0
 
@@ -64,5 +63,9 @@ if name in d:
 
 average = (t / n)
 
-print ('%.2f' % average)
+print '%.2f' % average
     
+
+
+
+
