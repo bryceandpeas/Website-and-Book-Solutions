@@ -4,40 +4,54 @@ from threading import *
 
 screenLock = Semaphore(value=1)
 
+
 def scan_connection(target_host, target_port):
+
     try:
-        connSkt = socket(AF_INET, SOCK_STREAM)
-        connSkt.connect((target_host, target_port))
-        connSkt.send('ViolentPython\r\n')
-        results = connSkt.recv(100)
+        # Create socket - AF_INET for IPv4/hostname - SOCK_STREAM for TCP
+        client = socket(AF_INET, SOCK_STREAM)
+        # Connect
+        client.connect((target_host, target_port))
+        # Send data 
+        client.send('ViolentPython\r\n')
+        # Get
+        results = client.recv(100)
+        # Get screenlock
         screenLock.acquire()
-        print('[+] %d/tcp open' % target_port)
-        print('[+] ' + str(results))
+        # Print response
+        print('Scanner: {0}/tcp open'.format(target_port))
+        print('Scanner: {0}'.format(results))
+
     except:
         screenLock.acquire()
-        print('[-] %d/tcp closed' % target_port)
+        print('Scanner: {0}/tcp closed'.format(target_port))
+
     finally:
         screenLock.release()
-    connSkt.close() 
+
+    client.close() 
 
 def scan_port(target_host, target_ports):
+
     try:
         target_ip = gethostbyname(target_host)
+
     except:
-        print("[-] Cannot resolve '%s': Unknown host" %target_host)
+        print('Scanner: Cannot resolve {0}: Unknown host'.format(target_host))
         return
 
     try:
-        tgtName = gethostbyaddr(target_ip)
-        print('\n[+] Scan Results for: ' + tgtName[0])
+        target_name = gethostbyaddr(target_ip)
+        print('\nScanner: Result for host: {0}'.format(target_name[0]))
     except:
-        print('\n[+] Scan Results for: ' + target_ip)
+        print('\nScanner: Result for port: {0}'.format(target_ip))
 
     setdefaulttimeout(1)
+
     for target_port in target_ports:
-        t = Thread(target=scan_connection,
+        scan_thread = Thread(target=scan_connection,
                    args=(target_host,int(target_port)))
-        t.start()
+        scan_thread.start()
 
 
 def main():
@@ -63,7 +77,9 @@ def main():
         target_host = args.host
         target_ports = str(args.port).split(',')
 
-    init_argparse()
+        return (target_host, target_ports)
+
+    target_host, target_ports = init_argparse()
 
     scan_port(target_host, target_ports)
 
