@@ -5,7 +5,7 @@
 
 ### [Codewars Katas](https://www.codewars.com/):
 #### - Python - 8Kyu - 59 Solutions
-                  - 7Kyu -  3 Soltuions
+####          - 7Kyu -  3 Soltuions
 
 ### [Hackerrank](https://www.hackerrank.com):
 #### - Python - 84 Solutions
