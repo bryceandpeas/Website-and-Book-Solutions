@@ -1,4 +1,4 @@
-# My Solutions to Various Website Problems, Lists and Challenges
+## Solutions to various website problems, lists and challenges.
 
 ### [5CrucialProjects]( https://www.daniweb.com/programming/software-development/threads/131973/5-crucial-projects-for-beginners):
 #### - Python - 4 Solutions
