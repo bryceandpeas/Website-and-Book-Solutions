@@ -16,3 +16,6 @@
 
 ### [Reddit Daily Programmer](https://www.reddit.com/r/dailyprogrammer/):
 #### - Python - 3 Solutions
+
+### [Year Of Programming (2017)](https://github.com/YearOfProgramming/2017Challenges):
+#### - Python - 1 Solution
