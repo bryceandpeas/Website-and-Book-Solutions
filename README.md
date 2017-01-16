@@ -4,7 +4,7 @@
 #### - Python - 4 Solutions
 
 ### [Codewars Katas](https://www.codewars.com/):
-#### - Python - 8Kyu - 59 Solutions
+#### - Python - 8Kyu - 60 Solutions
 ####          - 7Kyu -  3 Soltuions
 
 ### [Hackerrank](https://www.hackerrank.com):
