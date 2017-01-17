@@ -11,7 +11,7 @@
   * 7 Kyu -  3 Soltuions
 
 * Crystal: 
-  * 8 Kyu -  5 Solutions
+  * 8 Kyu -  8 Solutions
 
 [Hackerrank](https://www.hackerrank.com):
 * Python:   84 Solutions
