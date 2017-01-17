@@ -4,6 +4,7 @@
 #### - Python - 4 Solutions
 
 ### [Codewars Katas](https://www.codewars.com/):
+[!codewars Badge](https://www.codewars.com/users/BryceFury/badges/small)
 #### - Python - 8Kyu - 60 Solutions
 ####          - 7Kyu -  3 Soltuions
 
