@@ -5,8 +5,9 @@
 
 ### [Codewars Katas](https://www.codewars.com/):
 [!codewars Badge](https://www.codewars.com/users/BryceFury/badges/small)
-#### - Python - 8Kyu - 60 Solutions
-####          - 7Kyu -  3 Soltuions
+#### - Python: 8 Kyu - 60 Solutions
+####           7 Kyu -  3 Soltuions
+#### - Crystal: 8 Kyu - 1 Solution
 
 ### [Hackerrank](https://www.hackerrank.com):
 #### - Python - 84 Solutions
