@@ -1,4 +1,4 @@
-# Codewars Kata - 8 Kyu - Sum Mixed Array
+# Codewars Kata - 8 Kyu - My Head Is At The Wrong End
 #
 # Description:
 #
