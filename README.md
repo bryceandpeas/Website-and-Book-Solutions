@@ -7,7 +7,7 @@
 [![codewars Badge](https://www.codewars.com/users/BryceFury/badges/small)](https://www.codewars.com/users/BryceFury/)
 #### - Python: 8 Kyu - 60 Solutions
 ####           7 Kyu -  3 Soltuions
-#### - Crystal: 8 Kyu - 2 Solutions
+#### - Crystal: 8 Kyu - 3 Solutions
 
 ### [Hackerrank](https://www.hackerrank.com):
 #### - Python - 84 Solutions
