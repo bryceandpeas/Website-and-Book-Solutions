@@ -4,10 +4,10 @@
 #### - Python - 4 Solutions
 
 ### [Codewars Katas](https://www.codewars.com/):
-[![codewars Badge](https://www.codewars.com/users/BryceFury/badges/small)]
+[![codewars Badge](https://www.codewars.com/users/BryceFury/badges/small)](https://www.codewars.com/users/BryceFury/)
 #### - Python: 8 Kyu - 60 Solutions
 ####           7 Kyu -  3 Soltuions
-#### - Crystal: 8 Kyu - 1 Solution
+#### - Crystal: 8 Kyu - 2 Solutions
 
 ### [Hackerrank](https://www.hackerrank.com):
 #### - Python - 84 Solutions
