@@ -9,6 +9,7 @@
 * Python: 
   * 8 Kyu - 60 Solutions
   * 7 Kyu -  3 Soltuions
+  * 5 Kyu -  2 Soltuions
 
 * Crystal: 
   * 8 Kyu -  8 Solutions
