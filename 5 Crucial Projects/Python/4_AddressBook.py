@@ -3,8 +3,8 @@
 
 4 -  Address Book:
 
-The user wants to create an address book and downloads your program. 
-How would you make it? Create a program that prompts the user for the 
+The user wants to create an address book and downloads your program.
+How would you make it? Create a program that prompts the user for the
 information in most address books and then stores it in a .txt file!
 
 What you will be Using:
@@ -13,9 +13,9 @@ Input/Output, Print, Python File Commands, If/Elif/Else
 
 My Thoughts on Project:
 
-This is a great intermediate Python project once you are really going with Python. 
-This will teach you how to access files, edit them, save them, delete them, and more. 
-If you get stuck you can look at my source code but I strongly suggest that you use 
+This is a great intermediate Python project once you are really going with Python.
+This will teach you how to access files, edit them, save them, delete them, and more.
+If you get stuck you can look at my source code but I strongly suggest that you use
 Google and then try to apply what you find into your program.
 '''
 
@@ -68,9 +68,9 @@ def delete_contact(contact_list, contact_to_delete):
     for contact in contact_list:
       if contact_to_delete in contact:
 
-        print('Contact no: {0}, ' 
-            'First name: {1}, ' 
-            'Last name: {2}\n'.format(contact_list.index(contact), 
+        print('Contact no: {0}, '
+            'First name: {1}, '
+            'Last name: {2}\n'.format(contact_list.index(contact),
                          contact[0],
                          contact[1]))
 
@@ -112,9 +112,9 @@ def change_contact(contact_list, contact_to_change):
     for contact in contact_list:
       if contact_to_change in contact:
 
-        print('Contact no: {0}, ' 
-            'First name: {1}, ' 
-            'Last name: {2}\n'.format(contact_list.index(contact), 
+        print('Contact no: {0}, '
+            'First name: {1}, '
+            'Last name: {2}\n'.format(contact_list.index(contact),
                          contact[0],
                          contact[1]))
 
@@ -131,19 +131,19 @@ def change_contact(contact_list, contact_to_change):
           contact[4] = input('Please enter your contact\'s number: ')
 
           if original_contact[0] != contact[0]:
-            print('\nChanged first name: {0} to {1}'.format(original_contact[0], 
+            print('\nChanged first name: {0} to {1}'.format(original_contact[0],
                                contact[0]))
           if original_contact[1] != contact[1]:
-            print('\nChanged surname: {0} to {1}'.format(original_contact[1], 
+            print('\nChanged surname: {0} to {1}'.format(original_contact[1],
                                contact[1]))
           if original_contact[2] != contact[2]:
-            print('\nChanged address: {0} to {1}'.format(original_contact[2], 
+            print('\nChanged address: {0} to {1}'.format(original_contact[2],
                                contact[2]))
           if original_contact[3] != contact[3]:
-            print('\nChanged email: {0} to {1}'.format(original_contact[3], 
+            print('\nChanged email: {0} to {1}'.format(original_contact[3],
                                contact[3]))
           if original_contact[4] != contact[4]:
-            print('\nChanged number: {0} to {1}'.format(original_contact[4], 
+            print('\nChanged number: {0} to {1}'.format(original_contact[4],
                                contact[4]))
 
           print('\nFinished changes')
@@ -162,19 +162,19 @@ def change_contact(contact_list, contact_to_change):
         contact[4] = input('Please enter your contact\'s number: ')
 
         if original_contact[0] != contact[0]:
-          print('\nChanged first name: {0} to {1}'.format(original_contact[0], 
+          print('\nChanged first name: {0} to {1}'.format(original_contact[0],
                                contact[0]))
         if original_contact[1] != contact[1]:
-          print('\nChanged surname: {0} to {1}'.format(original_contact[1], 
+          print('\nChanged surname: {0} to {1}'.format(original_contact[1],
                                contact[1]))
         if original_contact[2] != contact[2]:
-          print('\nChanged address: {0} to {1}'.format(original_contact[2], 
+          print('\nChanged address: {0} to {1}'.format(original_contact[2],
                                contact[2]))
         if original_contact[3] != contact[3]:
-          print('\nChanged email: {0} to {1}'.format(original_contact[3], 
+          print('\nChanged email: {0} to {1}'.format(original_contact[3],
                                contact[3]))
         if original_contact[4] != contact[4]:
-          print('\nChanged number: {0} to {1}'.format(original_contact[4], 
+          print('\nChanged number: {0} to {1}'.format(original_contact[4],
                                contact[4]))
 
         print('\nFinished changes')
@@ -186,15 +186,15 @@ def change_contact(contact_list, contact_to_change):
 def list_contacts(contact_list):
   for contact in contact_list:
     print('\nContact {0}:\n'
-        ' - First Name: {1}\n' 
+        ' - First Name: {1}\n'
         ' - Surname: {2}\n'
         ' - Address: {3}\n'
         ' - Email: {4}\n'
-        ' - Number: {5}\n'.format(contact_list.index(contact), 
-                   contact[0], 
+        ' - Number: {5}\n'.format(contact_list.index(contact),
+                   contact[0],
                    contact[1],
-                   contact[2], 
-                   contact[3], 
+                   contact[2],
+                   contact[3],
                    contact[4]))
 
 
@@ -214,15 +214,15 @@ def search_contacts(contact_list, contact_to_search):
       if contact_to_search in contact:
 
         print('\nContact {0}:\n'
-            ' - First Name: {1}\n' 
+            ' - First Name: {1}\n'
             ' - Surname: {2}\n'
             ' - Address: {3}\n'
             ' - Email: {4}\n'
-            ' - Number: {5}\n'.format(contact_list.index(contact), 
-                        contact[0], 
+            ' - Number: {5}\n'.format(contact_list.index(contact),
+                        contact[0],
                         contact[1],
-                        contact[2], 
-                        contact[3], 
+                        contact[2],
+                        contact[3],
                         contact[4]))
 
   elif count_check == 1:
@@ -230,15 +230,15 @@ def search_contacts(contact_list, contact_to_search):
       if contact_to_search in contact:
         print('\nFound contact for {0}:'.format(contact_to_search))
         print('\nContact {0}:\n'
-            ' - First Name: {1}\n' 
+            ' - First Name: {1}\n'
             ' - Surname: {2}\n'
             ' - Address: {3}\n'
             ' - Email: {4}\n'
-            ' - Number: {5}\n'.format(contact_list.index(contact), 
-                        contact[0], 
+            ' - Number: {5}\n'.format(contact_list.index(contact),
+                        contact[0],
                         contact[1],
-                        contact[2], 
-                        contact[3], 
+                        contact[2],
+                        contact[3],
                         contact[4]))
 
   else:

@@ -14,7 +14,7 @@ The first line of input contains the original string. The next line contains the
 
 Constraints
 
-1≤len(string)≤2001≤len(string)≤200 
+1≤len(string)≤2001≤len(string)≤200
 Each character in the string is an ascii character.
 
 Output Format
@@ -33,5 +33,5 @@ count = 0
 for i in range(0, len(S)):
     if S[i:i+len(s)] == s:
         count += 1
-    
+
 print count

@@ -34,9 +34,9 @@ You are given two sets of student roll numbers. One set has subscribed to the En
 
 Input Format
 
-The first line contains nn, the number of students who have subscribed to the English newspaper. 
+The first line contains nn, the number of students who have subscribed to the English newspaper.
 The second line contains nn space separated roll numbers of those students.
-The third line contains bb, the number of students who have subscribed to the French newspaper. 
+The third line contains bb, the number of students who have subscribed to the French newspaper.
 The fourth line contains bb space separated roll numbers of those students.
 
 Constraints
@@ -59,14 +59,6 @@ rollFrench = set((input().split()))
 finalRoll = rollEnglish.intersection(set(rollFrench))
 
 print (len(finalRoll))
-    
-
-
-
-
-
-
-    
 
 
 
@@ -81,7 +73,15 @@ print (len(finalRoll))
 
 
 
-    
+
+
+
+
+
+
+
+
+
 
 
 

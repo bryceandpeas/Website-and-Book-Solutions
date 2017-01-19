@@ -10,10 +10,10 @@ As we know, the result of abab grows really fast with increasing bb.
 
 Let's do some calculations on very large integers.
 
-Task 
+Task
 Read four numbers, aa, bb, cc, and dd, and print the result of ab+cdab+cd.
 
-Input Format 
+Input Format
 Integers aa, bb, cc, and dd are given on four separate lines, respectively.
 
 

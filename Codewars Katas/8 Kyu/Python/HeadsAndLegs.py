@@ -22,7 +22,7 @@ In the form:
 
 (Heads, Legs) = (72, 200)
 
-VALID - (72, 200) =>             (44 , 28) 
+VALID - (72, 200) =>             (44 , 28)
                              (Chickens, Cows)
 
 INVALID - (72, 201) => "No solutions"
@@ -40,9 +40,9 @@ def animals(heads, legs):
     full_heads = heads * 2
     sub_legs = legs - full_heads
     split = sub_legs / 2
-    one_of = heads - split 
+    one_of = heads - split
     two_of = heads - one_of
-    
+
     if (one_of >= 0) and (two_of >= 0):
         try:
             one_of = int('{0:g}'.format(one_of))

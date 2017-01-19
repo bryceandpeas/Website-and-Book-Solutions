@@ -6,14 +6,14 @@
 [5CrucialProjects]( https://www.daniweb.com/programming/software-development/threads/131973/5-crucial-projects-for-beginners):
 * Python: 4 Solutions
 
-[Codewars Katas](https://www.codewars.com/) 
-* Python: 
+[Codewars Katas](https://www.codewars.com/)
+* Python:
   * 8 Kyu - 60 Solutions
   * 7 Kyu -  3 Soltuions
   * 6 Kyu -  2 Soltuions
   * 5 Kyu -  2 Soltuions
 
-* Crystal: 
+* Crystal:
   * 8 Kyu -  8 Solutions
 
 [Hackerrank](https://www.hackerrank.com):

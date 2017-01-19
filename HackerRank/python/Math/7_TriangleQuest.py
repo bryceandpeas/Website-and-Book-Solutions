@@ -18,13 +18,13 @@ Use no more than two lines. The first line (the for statement) is already writte
 
 Note: Using anything related to strings will give a score of 00.
 
-Input Format 
+Input Format
 A single line containing integer, NN.
 
-Constraints 
+Constraints
 1≤N≤91≤N≤9
 
-Output Format 
+Output Format
 Print N−1N−1 lines as explained above.
 
 

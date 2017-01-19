@@ -12,7 +12,7 @@ Given an array of  integers, can you find the sum of its elements?
 
 Input Format
 
-The first line contains an integer, , denoting the size of the array. 
+The first line contains an integer, , denoting the size of the array.
 The second line contains  space-separated integers representing the array's elements.
 
 Output Format
@@ -42,5 +42,5 @@ arr_print = 0
 
 for i in arr:
     arr_print += i
-    
+
 print (arr_print)

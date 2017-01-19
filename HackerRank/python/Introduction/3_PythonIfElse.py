@@ -4,7 +4,7 @@ Hackerrank - Python - Introduction - Python If-Else
 
 Check Tutorial tab to know how to to solve.
 
-Task 
+Task
 Given an integer, , perform the following conditional actions:
 
 If  is odd, print Weird
@@ -35,10 +35,10 @@ Sample Output 1
 Not Weird
 Explanation
 
-Sample Case 0:  
+Sample Case 0:
  is odd and odd numbers are weird, so we print Weird.
 
-Sample Case 1:  
+Sample Case 1:
  and  is even, so it isn't weird. Thus, we print Not Weird.
 
 

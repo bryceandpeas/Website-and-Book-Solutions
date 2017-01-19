@@ -27,6 +27,6 @@ def count_sheeps(arrayOfSheeps):
             count += 1
         else:
             continue
-        
-  
+
+
     return (count)

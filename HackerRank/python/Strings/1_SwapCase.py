@@ -28,5 +28,5 @@ Print the modified string SS.
 STDIN = raw_input()
 
 o = STDIN.swapcase()
-   
+
 print o

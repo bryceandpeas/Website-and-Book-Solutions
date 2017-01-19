@@ -21,7 +21,7 @@ Given  and , can you compare the two challenges and print their respective compa
 
 Input Format
 
-The first line contains  space-separated integers, , , and , describing the respective values in triplet . 
+The first line contains  space-separated integers, , , and , describing the respective values in triplet .
 The second line contains  space-separated integers, , , and , describing the respective values in triplet .
 
 Constraints
@@ -36,7 +36,7 @@ Sample Input
 3 6 10
 Sample Output
 
-1 1 
+1 1
 Explanation
 
 In this example:

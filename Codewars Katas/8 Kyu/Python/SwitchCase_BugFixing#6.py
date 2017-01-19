@@ -17,8 +17,8 @@ def eval_object(v):
         "*": v['a']*v['b'],
         "%": v['a']%v['b'],
         "**": v['a']**v['b'], }[v['operation']]
-        
-        
-        
-        
-        
+
+
+
+
+

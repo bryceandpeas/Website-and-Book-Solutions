@@ -34,9 +34,9 @@ You are given two sets of student roll numbers. One set has subscribed to the En
 
 Input Format
 
-The first line contains the number of students who have subscribed to the English newspaper. 
+The first line contains the number of students who have subscribed to the English newspaper.
 The second line contains the space separated list of student roll numbers who have subscribed to the English newspaper.
-The third line contains the number of students who have subscribed to the French newspaper. 
+The third line contains the number of students who have subscribed to the French newspaper.
 The fourth line contains the space separated list of student roll numbers who have subscribed to the French newspaper.
 
 Constraints

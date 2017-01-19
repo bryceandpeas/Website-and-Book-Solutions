@@ -14,12 +14,12 @@ Given  and , print  lines where each line  denotes string .
 
 Input Format
 
-The first line contains a single string denoting . 
+The first line contains a single string denoting .
 The second line contains an integer, , denoting the length of each subsegment.
 
 Constraints
 
-, where  is the length of 
+, where  is the length of
 It is guaranteed that  is a multiple of .
 Output Format
 
@@ -28,7 +28,7 @@ Print  lines where each line  contains string .
 Sample Input
 
 AABCAAADA
-3   
+3
 Sample Output
 
 AB
@@ -44,7 +44,7 @@ We then print each  on a new line.
 
 s = input()
 l = int(input())
- 
+
 iter_list = [s[i:i + l] for i in range(0, len(s), l)]
 op_list =[]
 
@@ -54,12 +54,12 @@ for i in iter_list:
             op_list.append(j)
     print (''.join(op_list))
     del op_list[:]
-        
-        
 
 
 
-    
+
+
+
 
 
 

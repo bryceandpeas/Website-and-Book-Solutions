@@ -33,7 +33,7 @@ For each integer  (so all numbers in that range):
 If , then print the English representation of it. That is "one" for 1, "two" for 2, and so on.
 Else if  and it is even, then print "even".
 Else if  and it is odd, then print "odd".
-Note:  represents the interval, i.e., 
+Note:  represents the interval, i.e.,
 
 Sample Input
 
@@ -58,35 +58,35 @@ int main() {
     int i;
     cin>>a;
     cin>>b;
-    if(b>9) { 
-        for(i=a;i<=9;i++) { 
-            if(i==2) cout<<"two\n"; 
-            else if(i==1) cout<<"one\n"; 
-            else if(i==3) cout<<"three\n"; 
-            else if(i==4) cout<<"four\n"; 
-            else if(i==5) cout<<"five\n"; 
-            else if(i==6) cout<<"six\n"; 
-            else if(i==7) cout<<"seven\n"; 
-            else if(i==8) cout<<"eight\n"; 
+    if(b>9) {
+        for(i=a;i<=9;i++) {
+            if(i==2) cout<<"two\n";
+            else if(i==1) cout<<"one\n";
+            else if(i==3) cout<<"three\n";
+            else if(i==4) cout<<"four\n";
+            else if(i==5) cout<<"five\n";
+            else if(i==6) cout<<"six\n";
+            else if(i==7) cout<<"seven\n";
+            else if(i==8) cout<<"eight\n";
             else if(i==9) cout<<"nine\n"; }
         for(int j=10;j<=b;j++){
             if(j%2==0){
-                cout<<"even\n";    
+                cout<<"even\n";
                 }
             else
                 cout<<"odd\n";
         }
-    } 
-    else { 
-        for(i=a;i<=b;i++) { 
-            if(i==2) cout<<"two\n"; 
-            else if(i==1) cout<<"one\n"; 
-            else if(i==3) cout<<"three\n"; 
-            else if(i==4) cout<<"four\n"; 
-            else if(i==5) cout<<"five\n"; 
-            else if(i==6) cout<<"six\n"; 
-            else if(i==7) cout<<"seven\n"; 
-            else if(i==8) cout<<"eight\n"; 
+    }
+    else {
+        for(i=a;i<=b;i++) {
+            if(i==2) cout<<"two\n";
+            else if(i==1) cout<<"one\n";
+            else if(i==3) cout<<"three\n";
+            else if(i==4) cout<<"four\n";
+            else if(i==5) cout<<"five\n";
+            else if(i==6) cout<<"six\n";
+            else if(i==7) cout<<"seven\n";
+            else if(i==8) cout<<"eight\n";
             else if(i==9) cout<<"nine\n"; }
     }
 

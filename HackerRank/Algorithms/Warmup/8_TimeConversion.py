@@ -37,6 +37,6 @@ import datetime
 
 time = input().strip()
 
-get_date = datetime.datetime.strptime(time,'%I:%M:%S%p') 
+get_date = datetime.datetime.strptime(time,'%I:%M:%S%p')
 
 print(get_date.strftime("%H:%M:%S"))

@@ -25,5 +25,5 @@ def expanded_form(num):
         else:
             num_len -= 1
             continue
-        
+
     return(out_string.strip(' + '))

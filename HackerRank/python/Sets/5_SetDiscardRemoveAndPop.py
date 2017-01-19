@@ -5,7 +5,7 @@ February 2016
 Hackerrank - Python - Sets - Set .discard(), .remove() & .pop()
 
 .remove(x)
-This operation removes element xx from the set. 
+This operation removes element xx from the set.
 If element xx does not exist, it raises a KeyError.
 The .remove(x) operation returns None.
 
@@ -22,7 +22,7 @@ set([1, 2, 3, 6, 7, 8, 9])
 >>> s.remove(0)
 KeyError: 0
 .discard(x)
-This operation also removes element xx from the set. 
+This operation also removes element xx from the set.
 If element xx does not exist, it does not raise a KeyError.
 The .discard(x) operation returns None.
 
@@ -40,7 +40,7 @@ set([1, 2, 3, 6, 7, 8, 9])
 >>> print s
 set([1, 2, 3, 6, 7, 8, 9])
 .pop()
-This operation removes and return an arbitrary element from the set. 
+This operation removes and return an arbitrary element from the set.
 If there are no elements to remove, it raises a KeyError.
 
 Example
@@ -59,14 +59,14 @@ The commands will be pop, remove and discard.
 
 Input Format
 
-The first line contains integer nn, the number of elements in the set ss. 
-The second line contains nn space separated elements of set ss. All of the elements are non-negative integers, less than or equal to 9. 
+The first line contains integer nn, the number of elements in the set ss.
+The second line contains nn space separated elements of set ss. All of the elements are non-negative integers, less than or equal to 9.
 The third line contains integer NN, the number of commands.
 The next NN lines contains either pop, remove and/or discard commands followed by their associated value.
 
 Constraints
 
-0<n<200<n<20 
+0<n<200<n<20
 0<N<200<N<20
 Output Format
 
@@ -91,14 +91,14 @@ for i in range(0, cmdno):
 
 print (sum(s))
 
-    
 
 
 
 
 
 
-    
+
+
 
 
 

@@ -12,19 +12,19 @@ Tuples are data structures that look a lot like lists. Unlike lists, tuples are 
 
 A common tuple use is the swapping of 22 numbers:
 
-a,b = b,a 
+a,b = b,a
 Here a,ba,b is a tuple, and it assigns itself the values of b,ab,a.
 
 Another awesome use of tuples is as keys in a dictionary. In other words, tuples are hashable.
 
-Task 
+Task
 You are given an integer, NN, on a single line. The next line contains NN space-separated integers. Create a tuple, TT, of those NN integers, then compute and print the result of hash(TT).
 
 Note: hash() is one of the functions in the __builtins__ module.
 
 Input Format
 
-The first line contains an integer, NN (the number of elements in the tuple). 
+The first line contains an integer, NN (the number of elements in the tuple).
 The second line contains NN space-separated integers describing TT.
 
 Output Format

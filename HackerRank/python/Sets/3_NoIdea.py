@@ -8,15 +8,15 @@ There is an array of nn integers. There are also 22 disjoint sets, AA and BB, ea
 
 Note: Since AA and BB are sets, they have no repeated elements. However, the array might contain duplicate elements.
 
-Constraints 
-1≤n≤1051≤n≤105 
-1≤m≤1051≤m≤105 
+Constraints
+1≤n≤1051≤n≤105
+1≤m≤1051≤m≤105
 1≤Any integer in the input≤1091≤Any integer in the input≤109
 
 Input Format
 
-The first line contains integers nn and mm separated by a space. 
-The second line contains nn integers, the elements of the array. 
+The first line contains integers nn and mm separated by a space.
+The second line contains nn integers, the elements of the array.
 The third and fourth lines contain mm integers, AA and BB, respectively.
 
 Output Format
@@ -37,11 +37,11 @@ r = 0
 
 for i in M:
     r+=(i in A)-(i in B)
-    
+
 print(r)
 
 
-    
+
 
 
 

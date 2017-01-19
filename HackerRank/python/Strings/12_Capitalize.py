@@ -22,12 +22,12 @@ Print the capitalized string, SS.
 """
 
 
-import string 
+import string
 
 print(string.capwords(input(), ' '))
-    
 
-    
+
+
 
 
 

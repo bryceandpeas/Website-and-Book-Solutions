@@ -8,12 +8,12 @@ Task
 
 Read the integer, NN and print the decimal, octal, hexadecimal, and binary values from 11 to NN with space padding so that all fields take the same width as the binary value.
 
-Input Format 
+Input Format
 The first line contains an integer, NN.
 
 Constraints
 1≤N≤991≤N≤99
-Output Format 
+Output Format
 Print NN lines. Format the fields as the width of the binary value of NN.
 
 """

@@ -26,11 +26,11 @@ Sounds like you meant to say:
 import sys
 
 event_list = []
- 
+
 def event_organiser():
-   
+
     while True:
-   
+
         option = input('-*-')
 
         if option == 'exit':
@@ -66,19 +66,19 @@ def event_organiser():
             for i in event_list:
                 print('Event: ' + str(event_list.index(i)))
                 print('Title: {0} \n Location: {1} \n Time: {2} \n Date: {3} \n Description: {4}'.format(i[0], i[1], i[2], i[3], i[4]))
-              
+
 def organiser_wrapper():
-   
+
     option = input('Please enter \'start\' or \'exit\': ')
 
     if option == 'start':
         event_organiser()
     elif option in ('add', 'help', 'delete'):
         event_organiser()
-    elif option in ('quit', 'exit'): 
+    elif option in ('quit', 'exit'):
         sys.exit()
 
     organiser_wrapper()
- 
+
 organiser_wrapper()
 

@@ -6,13 +6,13 @@
 
 Overview:
 
-The user will be prompted with a menu where he/she will select a shape. 
-Then the user will give the appropriate information needed to solve for the area, 
+The user will be prompted with a menu where he/she will select a shape.
+Then the user will give the appropriate information needed to solve for the area,
 and the computer will give the area! Hope you all have taken geometry!
 What you will be Using:
 Input/Output, Integers, Variables, Strings, Print, If/Elif/Else
 My Thoughts on Project:
-Great if you understand geometry and want to write a program that will do a little homework for you! 
+Great if you understand geometry and want to write a program that will do a little homework for you!
 This program is great for learning variables and creation of math related projects.
 '''
 
@@ -68,7 +68,7 @@ def main():
     elif shape_selection == 1:
       print('You have selected circle.\n')
       circle_radius = (int(input('\nPlease enter the radius: ')))
-      
+
       area = circle(circle_radius)
 
     elif shape_selection == 2:

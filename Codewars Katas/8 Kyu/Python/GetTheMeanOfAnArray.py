@@ -19,4 +19,4 @@ def get_average(marks):
         average_add += i
         average = average_add / len(marks)
     return (average)
-    
+

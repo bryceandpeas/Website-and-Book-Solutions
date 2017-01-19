@@ -4,7 +4,7 @@ February 2016
 
 Hackerrank - Python - Math - Triangle Quest 2
 
-You are given a positive integer NN. 
+You are given a positive integer NN.
 Your task is to print a palindromic triangle of size NN.
 
 For example, a palindromic triangle of size 55 is:
@@ -14,11 +14,11 @@ For example, a palindromic triangle of size 55 is:
 12321
 1234321
 123454321
-You can't take more than two lines. The first line (a for-statement) is already written for you. 
+You can't take more than two lines. The first line (a for-statement) is already written for you.
 You have to complete the code using exactly one print statement.
 
-Note: 
-Using anything related to strings will give a score of 00. 
+Note:
+Using anything related to strings will give a score of 00.
 Using more than one for-statement will give a score of 00.
 
 Input Format

@@ -29,7 +29,7 @@ Sample Output
 15
 Explanation
 
-The primary diagonal is: 
+The primary diagonal is:
 11
       5
             -12
@@ -40,7 +40,7 @@ The secondary diagonal is:
             4
       5
 10
-Sum across the secondary diagonal: 4 + 5 + 10 = 19 
+Sum across the secondary diagonal: 4 + 5 + 10 = 19
 Difference: |4 - 19| = 15
 
 contact: bryce@brycefury.com
@@ -54,8 +54,8 @@ a = []
 for a_i in range(n):
     a_t = [int(a_temp) for a_temp in input().strip().split(' ')]
     a.append(a_t)
-    
-    
+
+
 def first_diagonal(a):
     return sum(a[i][i] for i in range(0, len(a)))
 

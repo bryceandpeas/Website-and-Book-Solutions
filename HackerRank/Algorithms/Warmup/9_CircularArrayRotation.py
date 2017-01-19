@@ -14,8 +14,8 @@ Watson performs this operation  times. To test Sherlock's ability to identify th
 
 Input Format
 
-The first line contains  space-separated integers, , , and , respectively. 
-The second line contains  space-separated integers, where each integer  describes array element (where ). 
+The first line contains  space-separated integers, , , and , respectively.
+The second line contains  space-separated integers, where each integer  describes array element (where ).
 Each of the  subsequent lines contains a single integer denoting .
 
 Constraints
@@ -38,7 +38,7 @@ Sample Output
 1
 Explanation
 
-After the first rotation, the array becomes . 
+After the first rotation, the array becomes .
 After the second (and final) rotation, the array becomes .
 
 Let's refer to the array's final state as array . For each query, we just have to print the value of  on a new line:

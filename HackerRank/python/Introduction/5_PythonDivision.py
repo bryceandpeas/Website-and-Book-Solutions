@@ -10,7 +10,7 @@ During the time of Python 2, when you divided one integer by another integer, no
 
 For example:
 
->>> 4/3 
+>>> 4/3
 1
 In order to make this a float division, you would need to convert one of the arguments into a float.
 
@@ -28,20 +28,20 @@ In Python 2, we will import a feature from the module __future__ called division
 
 >>> from __future__ import division
 >>> print 4/3
-1.3333333333333333 
+1.3333333333333333
 >>> print 4//3
 1
 Note: The __ in __future__ is a double underscore.
 
-Task 
+Task
 Read two integers and print two lines. The first line should contain integer division, aa//bb. The second line should contain float division, aa/bb.
 
 You don't need to perform any rounding or formatting operations.
 
-Input Format 
+Input Format
 The first line contains the first integer, aa. The second line contains the second integer, bb.
 
-Output Format 
+Output Format
 Print the two lines as described above.
 
 

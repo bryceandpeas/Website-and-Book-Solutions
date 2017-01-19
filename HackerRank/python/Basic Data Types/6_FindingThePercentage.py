@@ -33,7 +33,7 @@ Sample Output
 56.00
 Explanation
 
-Marks for Malika are  whose average is 
+Marks for Malika are  whose average is
 
 '''
 
@@ -47,10 +47,10 @@ for i in range(N):
     l = dat.split()
     sdat = l[0]
     l.remove(l[0])
-    
+
     nl = list(map(float, l))
     d[sdat] = nl
-    
+
 name = raw_input()
 
 t = 0
@@ -64,7 +64,7 @@ if name in d:
 average = (t / n)
 
 print '%.2f' % average
-    
+
 
 
 

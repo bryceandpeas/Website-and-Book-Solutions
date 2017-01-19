@@ -24,7 +24,7 @@ c = 0
 
 for i in range(N):
     tree = input()
-    
+
     for j in tree:
         if j == '=':
             c += 1

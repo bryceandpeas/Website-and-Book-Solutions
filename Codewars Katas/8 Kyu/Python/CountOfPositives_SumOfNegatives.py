@@ -20,14 +20,14 @@ def count_positives_sum_negatives(arr):
     positive_count = 0
     negative_sum = 0
     output = []
-    
+
     for i in arr:
         if i > 0:
             positive_count += 1
         else:
             negative_sum += int(i)
-            
+
     output.append(positive_count)
     output.append(negative_sum)
-    
+
     return (output)

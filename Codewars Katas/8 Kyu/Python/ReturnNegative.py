@@ -25,4 +25,4 @@ def make_negative( number ):
         return (-(number))
     else:
         return (number)
-        
+

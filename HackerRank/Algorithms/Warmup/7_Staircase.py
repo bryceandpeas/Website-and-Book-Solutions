@@ -30,7 +30,7 @@ Note: The last line must have  spaces in it.
 
 Sample Input
 
-6 
+6
 Sample Output
 
      #

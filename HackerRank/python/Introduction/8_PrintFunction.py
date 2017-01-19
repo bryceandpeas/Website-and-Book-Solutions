@@ -12,7 +12,7 @@ Example 1:
 
 var, var1, var2 = 1,2,3
 print var
-print var1, var2 
+print var1, var2
 Prints two lines and, in the second line, var1var1 and var2var2 are separated by a single space.
 
 Example 2:
@@ -28,14 +28,14 @@ Its method signature is below:
 print(value, ..., sep=' ', end='\n', file=sys.stdout)
 Here, you can add values separated by a comma. The arguments sep, end, and file are optional, but they can prove helpful in formatting output without taking help from a string module.
 
-The argument definitions are below: 
-sep defines the delimiter between the values. 
-end defines what to print after the values. 
+The argument definitions are below:
+sep defines the delimiter between the values.
+end defines what to print after the values.
 file defines the output stream.
 
 Interesting, isn't it?
 
-Task 
+Task
 Read an integer NN.
 
 Without using any string methods, try to print the following:
@@ -44,10 +44,10 @@ Without using any string methods, try to print the following:
 
 Note that "....." represents the values in between.
 
-Input Format 
+Input Format
 The first line contains an integer NN.
 
-Output Format 
+Output Format
 Output the answer as explained in the task.
 
 
@@ -55,7 +55,7 @@ Output the answer as explained in the task.
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
-from __future__ import print_function 
+from __future__ import print_function
 
 print(*range(1, int(input())+1), sep='')
 

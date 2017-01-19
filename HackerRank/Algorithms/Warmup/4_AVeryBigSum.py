@@ -18,8 +18,8 @@ Output Format
 
 Print a single value equal to the sum of the elements in the array.
 
-Constraints 
- 
+Constraints
+
 
 Sample Input
 

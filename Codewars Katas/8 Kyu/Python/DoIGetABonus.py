@@ -18,5 +18,5 @@ Return the total figure the individual will receive as a string prefixed with 'Â
 def bonus_time(salary, bonus):
     if bonus == True:
         return('$' + str(salary * 10))
-    else: 
-        return ('$' + str(salary)) 
+    else:
+        return ('$' + str(salary))

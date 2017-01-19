@@ -68,20 +68,20 @@ Print the alphabet rangoli in the format explained above.
 STDIN = int(input())
 
 for i in range(-(STDIN-1), STDIN):
-    
+
     for p in range (-2*(STDIN-1), 2*(STDIN-1)+1):
-        
+
         if p % 2 == 0 and (abs(p//2) + abs(i)) < STDIN :
-            
+
               print (chr(abs(p//2) + abs(i) + ord('a')), end = '')
-                
+
         else:
             print ('-', end = '')
-            
-    print()
-    
 
-    
+    print()
+
+
+
 
 
 

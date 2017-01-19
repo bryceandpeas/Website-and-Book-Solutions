@@ -8,7 +8,7 @@ Python is an interactive language that allows us to execute statements individua
 
 Here is a sample line of code that can be executed in Python:
 
-print "Hello World!" 
+print "Hello World!"
 You can even store the string in a variable and then print it:
 
 my_string = "Hello World!"
@@ -20,6 +20,6 @@ P.S. Do try Solve Me First in Python before moving ahead.
 
 """
 
-#write your code in next line. 
+#write your code in next line.
 
 print ('Hello World!')

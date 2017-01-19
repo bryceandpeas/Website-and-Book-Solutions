@@ -6,19 +6,19 @@ Python https://www.hackerrank.com/domains/tutorials/30-days-of-code
 
 Hackerrank - 30 Days Of Code - Day 2: Operators
 
-Objective 
+Objective
 In this challenge, you'll work with arithmetic operators. Check out the Tutorial tab for learning materials and an instructional video!
 
-Task 
+Task
 Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost.
 
 Note: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result!
 
 Input Format
 
-There are 33 lines of numeric input: 
-The first line has a double, mealCostmealCost (the cost of the meal before tax and tip). 
-The second line has an integer, tipPercenttipPercent (the percentage of mealCostmealCost being added as tip). 
+There are 33 lines of numeric input:
+The first line has a double, mealCostmealCost (the cost of the meal before tax and tip).
+The second line has an integer, tipPercenttipPercent (the percentage of mealCostmealCost being added as tip).
 The third line has an integer, taxPercenttaxPercent (the percentage of mealCostmealCost being added as tax).
 
 Output Format

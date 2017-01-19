@@ -15,6 +15,6 @@ def find_longest(string):
     longest = 0
     i =  0
     for i in spl:
-        if len(i) > longest: 
+        if len(i) > longest:
             longest = len(i)
     return longest

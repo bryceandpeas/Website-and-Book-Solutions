@@ -4,7 +4,7 @@ February 2016
 
 Hackerrank - Python - Sets - Introduction to Sets
 
-A set is an unordered collection of elements without duplicate entries. 
+A set is an unordered collection of elements without duplicate entries.
 When printed, iterated or converted into a sequence, its elements will appear in an arbitrary order.
 
 Example
@@ -29,7 +29,7 @@ set(['Hacker', 'Rank'])
 
 >>> print set(enumerate(['H','a','c','k','e','r','r','a','n','k']))
 set([(6, 'r'), (7, 'a'), (3, 'k'), (4, 'e'), (5, 'r'), (9, 'k'), (2, 'c'), (0, 'H'), (1, 'a'), (8, 'n')])
-Basically, sets are used for membership testing and eliminating duplicate entries. 
+Basically, sets are used for membership testing and eliminating duplicate entries.
 
 Task
 
@@ -64,7 +64,7 @@ print (sum(s) / len(s))
 
 
 
-    
+
 
 
 

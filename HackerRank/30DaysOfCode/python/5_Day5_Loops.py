@@ -6,10 +6,10 @@ Python https://www.hackerrank.com/domains/tutorials/30-days-of-code
 
 Hackerrank - 30 Days Of Code - Day 5: Loops
 
-Objective 
+Objective
 In this challenge, we're going to use loops to help us do some simple math. Check out the Tutorial tab to learn more.
 
-Task 
+Task
 Given an integer, , print its first  multiples. Each multiple  (where ) should be printed on a new line in the form: N x i = result.
 
 Input Format
@@ -20,7 +20,7 @@ Constraints
 
 Output Format
 
-Print  lines of output; each line  (where ) contains the  of  in the form: 
+Print  lines of output; each line  (where ) contains the  of  in the form:
 N x i = result.
 
 Sample Input
@@ -46,5 +46,5 @@ contact: bryce@brycefury.com
 N = int(input().strip())
 
 for i in range(1, 11):
-    result = (N * i)   
+    result = (N * i)
     print (str(N) + ' x ' + str(i) + ' = ' + str(result))

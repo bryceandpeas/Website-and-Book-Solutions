@@ -4,7 +4,7 @@ February 2016
 
 Hackerrank - Python - Sets - Set.add()
 
-If we want to add a single element to an existing set, we can use the .add() operation. 
+If we want to add a single element to an existing set, we can use the .add() operation.
 It adds the element to the set and returns 'None'.
 
 Example
@@ -29,7 +29,7 @@ Find the total number of distinct country stamps.
 Input Format
 
 The first line contains an integer NN, the total number of country stamps.
-The next NN lines contains the countrey's name where the stamp is from. 
+The next NN lines contains the countrey's name where the stamp is from.
 Constraints
 
 0<N<10000<N<1000
@@ -47,13 +47,13 @@ stamps = set()
 
 for i in range(0, noStamps):
     stamps.add((input()))
-               
+
 print (len(stamps))
 
 
 
 
-    
+
 
 
 

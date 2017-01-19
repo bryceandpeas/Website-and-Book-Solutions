@@ -5,14 +5,14 @@
 
 Overview:
 
-The computer randomly generates a number. The user inputs a number, 
-and the computer will tell you if you are too high, or too low. 
+The computer randomly generates a number. The user inputs a number,
+and the computer will tell you if you are too high, or too low.
 Then you will get to keep guessing until you guess the number.
 What you will be Using:
 Random, Integers, Input/Output, Print, While (Loop), If/Elif/Else
 My Thoughts on Project:
-If you are new to Python this is a great learning experience, 
-remember the code you used here and how you used it. 
+If you are new to Python this is a great learning experience,
+remember the code you used here and how you used it.
 This will help your natural learning curve into Python.
 '''
 

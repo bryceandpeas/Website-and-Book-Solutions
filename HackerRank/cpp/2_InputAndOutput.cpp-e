@@ -8,7 +8,7 @@ Introduction Challenges: https://www.hackerrank.com/domains/cpp/cpp-introduction
 
 Hackerrank - C++ - Introduction Challenges - Input and Output
 
-Objective 
+Objective
 In this challenge, we're practicing reading input from stdin and printing output to stdout.
 
 In C++, you can read a single whitespace-separated token of input using cin, and print output to stdout using cout. For example, let's say we declare the following variables:
@@ -24,7 +24,7 @@ cout << s << " " << n << endl;
 The above code prints the contents of string , which is the word "High". Then it prints a single space (), followed by the contents of integer . Because we also want to ensure that nothing else is printed on this line, we end our line of output with a newline via endl. This results in the following output:
 
 High 5
-Task 
+Task
 Read  numbers from stdin and print their sum to stdout.
 
 Note: If you plan on completing this challenge in C instead of C++, you'll need to use format specifiers with printf and scanf.
@@ -56,7 +56,7 @@ Sample Output
 using namespace std;
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int a;
     int b;
     int c;

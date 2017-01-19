@@ -1,8 +1,8 @@
-'''	
+'''
 
 Karan 100 Projects - Text - Count Words In A String
 
-Counts the number of individual words in a string. 
+Counts the number of individual words in a string.
 For added complexity read these strings in from a text file and generate a summary.
 
 '''
@@ -18,7 +18,7 @@ except:
 
 def count_words(input_file):
 	#Init word count
-	word_count = 0	
+	word_count = 0
 
 	# Open user file
 	with open(input_file, 'r') as user_txt_file:

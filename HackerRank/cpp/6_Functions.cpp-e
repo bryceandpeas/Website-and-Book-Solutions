@@ -8,7 +8,7 @@ Introduction Challenges: https://www.hackerrank.com/domains/cpp/cpp-introduction
 
 Hackerrank - C++ - Introduction Challenges - Functions
 
-Functions are a bunch of statements glued together. A function is provided with zero or more arguments, and it executes the statements on it. Based on the return type, it either returns nothing (void) or something. 
+Functions are a bunch of statements glued together. A function is provided with zero or more arguments, and it executes the statements on it. Based on the return type, it either returns nothing (void) or something.
 
 A sample syntax for a function is
 
@@ -37,7 +37,7 @@ Input will contain four integers -  , one in each line.
 
 Output Format
 
-Print the greatest of the four integers. 
+Print the greatest of the four integers.
 PS: I/O will be automatically handled.
 
 Sample Input
@@ -71,14 +71,14 @@ int max_of_four(int a, int b, int c, int d) {
             answer = d;
         }
         return answer;
-    } 
+    }
 
 int main() {
     int a, b, c, d;
     scanf("%d %d %d %d", &a, &b, &c, &d);
     int ans = max_of_four(a, b, c, d);
     printf("%d", ans);
-    
+
     return 0;
 }
 

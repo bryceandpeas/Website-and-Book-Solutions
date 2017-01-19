@@ -12,7 +12,7 @@ Let's implement a nested list! A nested list is a list that contains another lis
 
 >> a = [['blue', 'green'], ['red', 'black'], ['blue', 'white']]
 >> len(a)
-3  
+3
 >> a[1]
 ['red', 'black']
 >> a[1][0]
@@ -25,7 +25,7 @@ Note: If there are multiple students with the same grade, order their names alph
 
 Input Format
 
-The first line contains an integer, NN, the number of students. 
+The first line contains an integer, NN, the number of students.
 The 2N2N subsequent lines describe each student over 22 lines; the first line contains a student's name, and the second line contains their grade.
 
 Constraints

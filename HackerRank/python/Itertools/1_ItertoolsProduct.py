@@ -10,8 +10,8 @@ Hackerrank - Python - Itertools - itertools.product()
 
 itertools.product()
 
-This tool computes the cartesian product of input iterables. 
-It is equivalent to nested for-loops. 
+This tool computes the cartesian product of input iterables.
+It is equivalent to nested for-loops.
 For example, product(A, B) returns the same as ((x,y) for x in A for y in B).
 
 Sample Code
@@ -45,14 +45,14 @@ Note:  and  are sorted lists, and the cartesian product's tuples should be outpu
 
 Input Format
 
-The first line contains the space separated elements of list . 
+The first line contains the space separated elements of list .
 The second line contains the space separated elements of list .
 
 Both lists have no duplicate integer elements.
 
 Constraints
 
- 
+
 
 Output Format
 

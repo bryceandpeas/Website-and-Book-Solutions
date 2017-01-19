@@ -19,7 +19,7 @@ You can access an index by:
 a
 What if you would like to assign a value?
 
->>> string[5] = 'k' 
+>>> string[5] = 'k'
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: 'str' object does not support item assignment
@@ -40,14 +40,14 @@ Example
 >>> string = string[:5] + "k" + string[6:]
 >>> print string
 abrackdabra
-Task 
+Task
 Read a given string, change the character at a given index and then print the modified string.
 
-Input Format 
-The first line contains a string, SS. 
+Input Format
+The first line contains a string, SS.
 The next line contains an integer ii, denoting the index location and a character cc separated by a space.
 
-Output Format 
+Output Format
 Using any of the methods explained above, replace the character at index ii with character cc.
 
 """

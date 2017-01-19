@@ -36,7 +36,7 @@ All the letters in the list are lowercase English letters.
 
 Sample Input
 
-4 
+4
 a a c d
 2
 Sample Output
@@ -57,7 +57,7 @@ from itertools import combinations
 
 N = int(input())
 combi = combinations(list(input().split(' ')), int(input()))
-        
+
 def solver(combi):
     count = 0
     occurrences = 0
@@ -66,5 +66,5 @@ def solver(combi):
         if 'a' in i:
             occurrences += 1
     yield(occurrences / count)
-    
+
 print(*(solver(combi)))

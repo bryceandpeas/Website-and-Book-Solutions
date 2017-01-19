@@ -16,7 +16,7 @@ Long Long ("%lld"): 64 bit integer
 Char ("%c"): Character type
 Float ("%f"): 32 bit real value
 Double ("%lf"): 64 bit real value
-Reading 
+Reading
 To read a data type, use the following syntax:
 
 scanf("`format_specifier`", &val)
@@ -27,7 +27,7 @@ double d;
 scanf("%c %lf", &ch, &d);
 For the moment, we can ignore the spacing between format specifiers.
 
-Printing 
+Printing
 To print a data type, use the following syntax:
 
 printf("`format_specifier`", val)
@@ -59,11 +59,11 @@ a
 14049.30493
 Explanation
 
-Print int , 
-followed by long , 
-followed by long long , 
-followed by char , 
-followed by float , 
+Print int ,
+followed by long ,
+followed by long long ,
+followed by char ,
+followed by float ,
 followed by double .
 
 */

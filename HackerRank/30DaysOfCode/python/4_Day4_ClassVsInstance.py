@@ -6,10 +6,10 @@ Python https://www.hackerrank.com/domains/tutorials/30-days-of-code
 
 Hackerrank - 30 Days Of Code - Day 4: Class vs. Instance
 
-Objective 
+Objective
 In this challenge, we're going to learn about the difference between a class and an instance; because this is an Object Oriented concept, it's only enabled in certain languages. Check out the Tutorial tab for learning materials and an instructional video!
 
-Task 
+Task
 Write a Person class with an instance variable, , and a constructor that takes an integer, , as a parameter. The constructor must assign  to  after confirming the argument passed as  is not negative; if a negative argument is passed as , the constructor should set  to  and print Age is not valid, setting age to 0.. In addition, you must write the following instance methods:
 
 yearPasses() should increase the  instance variable by .
@@ -56,16 +56,16 @@ You are old.
 You are old.
 Explanation
 
-Test Case 0:  
+Test Case 0:
 Because , our code must set  to  and print the "Age is not valid..." message followed by the young message. Three years pass and , so we print the young message again.
 
-Test Case 1:  
+Test Case 1:
 Because , our code should print that the person is young. Three years pass and , so we print that the person is now a teenager.
 
-Test Case 2:  
+Test Case 2:
 Because , our code should print that the person is a teenager. Three years pass and , so we print that the person is old.
 
-Test Case 3:  
+Test Case 3:
 Because , our code should print that the person is old. Three years pass and the person is still old at , so we print the old message again.
 
 The extra line at the end of the output is supposed to be there and is trimmed before being compared against the test case's expected output. If you're failing this challenge, check your logic and review your print statements for spelling errors.

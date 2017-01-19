@@ -55,9 +55,9 @@ def greet(language):
                  'spanish': 'Bienvenido',
                  'swedish': 'Valkommen',
                  'welsh': 'Croeso'}
-                 
+
     if language in greetings:
         return greetings[language]
     else:
         return 'Welcome'
-        
+

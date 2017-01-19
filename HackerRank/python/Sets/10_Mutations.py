@@ -8,7 +8,7 @@ We have seen the applications of union, intersection, difference and symmetric d
 
 We can use the following operations to create mutations to a set:
 
-.update() or |= 
+.update() or |=
 Update the set by adding elements from an iterable/another set.
 
 >>> H = set("Hacker")
@@ -54,8 +54,8 @@ The next 2∗N2∗N lines are divided into NN parts containing two lines each.
 The first line of each part contains the space separated entries of the operation name and the length of the other set.
 The second line of each part contains space separated list of elements in the other set.
 
-0<0< len(set(A)) <1000<1000 
-0<0< len(otherSets) <100<100 
+0<0< len(set(A)) <1000<1000
+0<0< len(otherSets) <100<100
 0<N<1000<N<100
 Output Format
 
@@ -72,7 +72,7 @@ noOtherSets = int(input())
 
 for i in range(0, (noOtherSets)):
     cmds, nextSet = input().split(), set(map(int, input().split()))
-    
+
     if cmds[0] == 'intersection_update':
         s.intersection_update(nextSet)
     elif cmds[0] == 'update':
@@ -81,6 +81,6 @@ for i in range(0, (noOtherSets)):
         s.symmetric_difference_update(nextSet)
     elif cmds[0] == 'difference_update':
         s.difference_update(nextSet)
-        
+
 print (sum(s))
 

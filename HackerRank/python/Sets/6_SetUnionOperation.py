@@ -4,7 +4,7 @@ Hackerrank - Python - Sets - Set .union() Operation
 
 AuB.png.union()
 
-The .union() operator returns the union of a set and the set of elements in an iterable. 
+The .union() operator returns the union of a set and the set of elements in an iterable.
 Sometimes, the | operator is used in place of .union() operator, but it operates only on the set of elements in set.
 Set is immutable to the .union() operation (or | operation).
 
@@ -35,9 +35,9 @@ You are given two sets of student roll numbers. One set has subscribed to the En
 
 Input Format
 
-The first line contains an integer, , the number of students who have subscribed to the English newspaper. 
-The second line contains  space separated roll numbers of those students. 
-The third line contains , the number of students who have subscribed to the French newspaper. 
+The first line contains an integer, , the number of students who have subscribed to the English newspaper.
+The second line contains  space separated roll numbers of those students.
+The third line contains , the number of students who have subscribed to the French newspaper.
 The fourth line contains  space separated roll numbers of those students.
 
 Constraints

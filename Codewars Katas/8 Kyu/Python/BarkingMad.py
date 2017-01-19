@@ -16,7 +16,7 @@ Use method prototypes to enable all Dogs to bark.
 class Dog ():
     def __init__(self, breed):
         self.breed = breed
-    
+
 
 snoopy = Dog("Beagle")
 

@@ -9,11 +9,11 @@ Let's dive into decorators! You are given NN mobile numbers. Sort them in ascend
 
 +91 xxxxx xxxxx
 
-The given mobile numbers may have +91+91, 9191 or 00 written before the actual 1010 digit number. Alternatively, there may not be any prefix at all. 
+The given mobile numbers may have +91+91, 9191 or 00 written before the actual 1010 digit number. Alternatively, there may not be any prefix at all.
 
 Input Format
 
-The first line of input contains an integer NN, the number of mobile phone numbers. 
+The first line of input contains an integer NN, the number of mobile phone numbers.
 NN lines follow each containing a mobile number.
 
 Output Format
@@ -38,7 +38,7 @@ def number_formatter(pn):
 
 number_formatter(numbers)
 
-        
+
 
 
 

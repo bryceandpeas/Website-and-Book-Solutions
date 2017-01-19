@@ -6,10 +6,10 @@ Python https://www.hackerrank.com/domains/tutorials/30-days-of-code
 
 Hackerrank - 30 Days Of Code - Day 1: Data Types
 
-Objective 
+Objective
 Today, we're discussing data types. Check out the Tutorial tab for learning materials and an instructional video!
 
-Task 
+Task
 Complete the code in the editor below. The variables ii, dd, and ss are already declared and initialized for you. You must declare 33 variables: one of type int, one of type double, and one of type String. Then you must read 33 lines of input from stdin and initialize your 33 variables. Finally, you must use the ++ operator to perform the following operations:
 
 Print the sum of ii plus your int variable on a new line.
@@ -19,8 +19,8 @@ Note: If you are using a language that doesn't support using ++ for string conca
 
 Input Format
 
-The first line contains an integer, ii. 
-The second line contains a double, dd. 
+The first line contains an integer, ii.
+The second line contains a double, dd.
 The third line contains a string, ss.
 
 Output Format

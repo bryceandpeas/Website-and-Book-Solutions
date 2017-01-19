@@ -120,7 +120,7 @@ int main() {
     else if(n>9){
         cout << "Greater than 9";
     }
- 
+
    return 0;
 }
 

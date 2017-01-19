@@ -21,4 +21,4 @@ isDigit("zero")
 '''
 
 def isDigit(string):
-    return ((string.lstrip('-')).replace('.', '', 1)).isdigit() 
+    return ((string.lstrip('-')).replace('.', '', 1)).isdigit()

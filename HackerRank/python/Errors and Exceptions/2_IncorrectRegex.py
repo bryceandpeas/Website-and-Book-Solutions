@@ -8,12 +8,12 @@ Errors and Exceptions: https://www.hackerrank.com/domains/python/errors-exceptio
 
 Hackerrank - Python - Incorrect Regex
 
-You are given a string SS. 
+You are given a string SS.
 Your task is to find out whether SS is a valid regex or not.
 
 Input Format
 
-The first line contains integer TT, the number of test cases. 
+The first line contains integer TT, the number of test cases.
 The next TT lines contains the string SS.
 
 Constraints
@@ -32,13 +32,13 @@ import re
 T = int(input())
 
 for i in range(T):
-    
+
     try:
         x=re.compile(input().strip())
         if x:
             print (True)
-            
+
     except:
         print (False)
-      
+
 

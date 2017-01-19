@@ -14,14 +14,14 @@ Errors detected during execution are called exceptions.
 
 Examples:
 
-ZeroDivisionError 
+ZeroDivisionError
 This error is raised when the second argument of a division or modulo operation is zero.
 
 >>> a = '1'
 >>> b = '0'
 >>> print int(a) / int(b)
 >>> ZeroDivisionError: integer division or modulo by zero
-ValueError 
+ValueError
 This error is raised when a built-in operation or function receives an argument that has the right type but an inappropriate value.
 
 >>> a = '1'
@@ -44,12 +44,12 @@ print "Error Code:",e
 Error Code: integer division or modulo by zero
 Task
 
-You are given two values aa and bb. 
+You are given two values aa and bb.
 Perform integer division and print a/ba/b.
 
 Input Format
 
-The first line contains TT, the number of test cases. 
+The first line contains TT, the number of test cases.
 The next TT lines each contain the space separated values of aa and bb.
 
 Constraints
@@ -57,7 +57,7 @@ Constraints
 0<T<100<T<10
 Output Format
 
-Print the value of a/ba/b. 
+Print the value of a/ba/b.
 In the case of ZeroDivisionError or ValueError, print the error code.
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT

@@ -20,16 +20,16 @@ while i < 5:
     i+=1
 Here, the term range(0,5) returns a list of integers from 00 to 55: [0,1,2,3,4][0,1,2,3,4].
 
-Task 
+Task
 Read an integer NN. For all non-negative integers i<Ni<N, print i2i2. See the sample for details.
 
-Input Format 
+Input Format
 The first and only line contains the integer, NN.
 
-Constraints 
+Constraints
 1≤N≤201≤N≤20
 
-Output Format 
+Output Format
 Print NN lines, one corresponding to each ii.
 
 

@@ -23,7 +23,7 @@ def rot13(message):
     output_string = []
 
     for letter in message:
-    
+
         letter_number = ord(letter)
         new_letter_number = letter_number + 13
 
@@ -35,14 +35,14 @@ def rot13(message):
                     new_letter_number -= 26
                 elif new_letter_number < ord('A'):
                     new_letter_number += 26
-                    
+
             elif letter.islower():
                 if new_letter_number > ord('z'):
                     new_letter_number -= 26
                 elif new_letter_number < ord('a'):
                     new_letter_number += 26
-            
+
             new_letter_character = chr(new_letter_number)
             output_string.append(new_letter_character)
-        
+
     return (''.join(output_string))

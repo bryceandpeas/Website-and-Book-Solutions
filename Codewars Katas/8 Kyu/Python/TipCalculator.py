@@ -29,8 +29,8 @@ def calculate_tip(amount, rating):
     elif rating == 'good': percentage = 10
     elif rating == 'great': percentage = 15
     elif rating == 'excellent': percentage = 20
-    elif rating == 'terrible': return(0)   
-    
+    elif rating == 'terrible': return(0)
+
     else:
         return ('Rating not recognised')
 

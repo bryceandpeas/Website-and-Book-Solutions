@@ -9,7 +9,7 @@ Therefore, ∡ABC=90°∡ABC=90°.
 
 Point MM is the midpoint of hypotenuse ACAC.
 
-You are given the lengths ABAB and BCBC. 
+You are given the lengths ABAB and BCBC.
 Your task is to find ∡MBC∡MBC (angle θ°θ°, as shown in the figure) in degrees.
 
 Input Format
@@ -25,9 +25,9 @@ Lengths ABAB and BCBC are natural numbers.
 
 Output Format
 
-Output ∡MBC∡MBC in degrees. 
+Output ∡MBC∡MBC in degrees.
 
-Note: Round the angle to the nearest integer. 
+Note: Round the angle to the nearest integer.
 
 NOTE: Python 3 is disabled for this challenge.
 

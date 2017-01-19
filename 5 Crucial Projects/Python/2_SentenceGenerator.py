@@ -5,14 +5,14 @@
 
 Overview:
 
-A series of different parts of sentences will be randomly 
+A series of different parts of sentences will be randomly
 put together to come up with new interesting sentences.
 What you will be Using:
 Random, Integers, Print, Strings, Breaks, Functions, For, Range
 My Thoughts on Project:
-A very fun beginning project, have fun with this... 
-Come up with some wacky sentences! 
-Also, this project really gets you to experiment with strings, 
+A very fun beginning project, have fun with this...
+Come up with some wacky sentences!
+Also, this project really gets you to experiment with strings,
 piecing them together, randoming from a set of strings, and more.
 '''
 
@@ -27,7 +27,7 @@ soup = BeautifulSoup(html)
 final_text = ''
 
 for script in soup(['script', 'style']):
-    script.extract()  
+    script.extract()
 
 text = soup.get_text()
 

@@ -6,10 +6,10 @@ Python https://www.hackerrank.com/domains/tutorials/30-days-of-code
 
 Hackerrank - 30 Days Of Code - Day 0: Hello, World
 
-Objective 
+Objective
 In this challenge, we review some basic concepts that will get you started with this series. Check out the Tutorial tab for learning materials and an instructional video!
 
-Task 
+Task
 To complete this challenge, you must save a line of input from stdin to a variable, print 𝙷𝚎𝚕𝚕𝚘, 𝚆𝚘𝚛𝚕𝚍.Hello, World. on a single line, and finally print the value of your variable on a second line.
 
 You've got this!
