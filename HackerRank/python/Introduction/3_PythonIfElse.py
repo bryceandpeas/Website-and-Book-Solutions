@@ -46,9 +46,6 @@ Sample Case 1:
 
 #!/bin/python3
 
-import sys
-
-
 N = int(input().strip())
 
 if N % 2 != 0:
