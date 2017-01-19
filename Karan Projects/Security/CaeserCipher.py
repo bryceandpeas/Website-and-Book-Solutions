@@ -19,9 +19,7 @@ analysis to guess the key, or just try all 25 keys.
 
 import sys
 
-'''
-Argparser is probably better for handling arguments, usage etc. in the real world.
-'''
+''' Argparser is probably better for handling arguments, usage etc. in the real world. '''
 
 # Great user, print usage
 print('\n' + 'This script requires three arguments: ' + '\n' + '\n',
