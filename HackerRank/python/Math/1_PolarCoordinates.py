@@ -50,7 +50,6 @@ The second line should contain the value of φφ.
 
 
 import cmath
-import math
 
 STDIN = complex(input())
 
