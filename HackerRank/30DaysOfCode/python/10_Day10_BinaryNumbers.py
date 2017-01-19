@@ -48,9 +48,6 @@ contact: bryce@brycefury.com
 
 #!/bin/python3
 
-import sys
-
-
 n = int(input().strip())
 
 stripped_binary = (bin(n)[2:].split('0')) 
