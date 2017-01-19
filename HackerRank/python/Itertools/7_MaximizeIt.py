@@ -53,9 +53,6 @@ K, M = map(int, input().split(' '))
 
 def solver(K, M):
     
-    max_vals = []
-    final_out = 0
-    
     def get_input():
         nums_in = [map(int, input().split()[1:]) for i in range(K)]
         return nums_in
