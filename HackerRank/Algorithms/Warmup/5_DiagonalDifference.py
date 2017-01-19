@@ -49,9 +49,6 @@ contact: bryce@brycefury.com
 
 #!/bin/python3
 
-import sys
-
-
 n = int(input().strip())
 a = []
 for a_i in range(n):
