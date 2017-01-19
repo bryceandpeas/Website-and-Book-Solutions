@@ -36,8 +36,6 @@ Happy coding!
 
 '''
 
-import math
-
 def animals(heads, legs):
     full_heads = heads * 2
     sub_legs = legs - full_heads
