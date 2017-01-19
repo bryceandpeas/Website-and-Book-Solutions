@@ -26,8 +26,6 @@ contact: bryce@brycefury.com
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
-import re
-
 N = int(input())
 L = map(int, input().split())
 
