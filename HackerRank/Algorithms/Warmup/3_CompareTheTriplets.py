@@ -54,9 +54,6 @@ contact: bryce@brycefury.com
 
 #!/bin/python3
 
-import sys
-
-
 a = [int(i) for i in input().split(' ')]
 b = [int(i) for i in input().split(' ')]
 
