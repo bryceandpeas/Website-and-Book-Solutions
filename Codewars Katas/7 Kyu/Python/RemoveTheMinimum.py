@@ -29,5 +29,4 @@ def remove_smallest(numbers):
         numbers.remove(min(numbers))
         [x for (i,x) in enumerate(numbers) if x not in numbers[0:i]]
         return (numbers)
-
     raise NotImplementedError("TODO: remove_smallest")
