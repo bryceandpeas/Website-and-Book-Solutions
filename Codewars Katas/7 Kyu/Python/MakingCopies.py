@@ -24,5 +24,4 @@ def copy_list(l):
     list_copy = []
     for i in l:
         list_copy.append(i)
-
     return list_copy
