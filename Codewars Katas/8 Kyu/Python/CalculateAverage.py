@@ -1,6 +1,6 @@
 '''
 
-Codewars Kata - 8 Kyu - Calculate Average	
+Codewars Kata - 8 Kyu - Calculate Average
 
 Description:
 
