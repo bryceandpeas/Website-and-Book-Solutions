@@ -12,7 +12,5 @@ Help Steve to fix program, so result will be identical to MS Windows calculator.
 
 '''
 
-#This Kata is broken
-def calculate(x):
+def calculate(x=2):
     return ((x + x) * x)
-    
