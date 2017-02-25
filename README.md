@@ -12,6 +12,7 @@
   * 7 Kyu -  4 Soltuions
   * 6 Kyu -  2 Soltuions
   * 5 Kyu -  2 Soltuions
+  * 4 Kyu -  1 Soltuions
 
 * Crystal:
   * 8 Kyu -  8 Solutions
