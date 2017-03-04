@@ -8,11 +8,11 @@
 
 [Codewars Katas](https://www.codewars.com/)
 * Python:
-  * 8 Kyu - 101 Solutions
-  * 7 Kyu -  4 Soltuions
-  * 6 Kyu -  2 Soltuions
-  * 5 Kyu -  2 Soltuions
-  * 4 Kyu -  1 Soltuions
+  * 8 Kyu - 102 Solutions
+  * 7 Kyu -   4 Soltuions
+  * 6 Kyu -   2 Soltuions
+  * 5 Kyu -   2 Soltuions
+  * 4 Kyu -   1 Soltuions
 
 * Crystal:
   * 8 Kyu -  8 Solutions
