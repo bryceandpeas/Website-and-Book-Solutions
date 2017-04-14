@@ -30,3 +30,4 @@ def draw():
 
     if (ypos >= height - ht / 2 or ypos <= ht / 2):
         yspeed *= -1
+        
