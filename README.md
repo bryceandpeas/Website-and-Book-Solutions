@@ -18,8 +18,14 @@
   * 8 Kyu -  8 Solutions
 
 [Hackerrank](https://www.hackerrank.com):
-* Python:   84 Solutions
+* Python:   64 Solutions
 * C++:       8 Solutions
+
+* 30 Days of Code:
+  * PythonL 10 Solutions
+
+* Algorithms:
+  * Python: 9 Solutions
 
 [Karan Projects](https://github.com/karan/Projects):
 * Python:    7 Solutions
