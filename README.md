@@ -22,7 +22,7 @@
 * C++:       8 Solutions
 
 * 30 Days of Code:
-  * PythonL 10 Solutions
+  * Python: 10 Solutions
 
 * Algorithms:
   * Python: 9 Solutions
