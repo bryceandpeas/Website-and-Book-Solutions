@@ -22,13 +22,13 @@
 * C++:       8 Solutions
 
 * 10 Days of Statistics:
-  * Python: 2 Solutions
+  * Python:  3 Solutions
 
 * 30 Days of Code:
   * Python: 10 Solutions
 
 * Algorithms:
-  * Python: 9 Solutions
+  * Python:  9 Solutions
 
 [Karan Projects](https://github.com/karan/Projects):
 * Python:    7 Solutions
