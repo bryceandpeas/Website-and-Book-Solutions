@@ -22,7 +22,7 @@
 * C++:       9 Solutions
 
 * 10 Days of Statistics:
-  * Python:  3 Solutions
+  * Python:  4 Solutions
 
 * 30 Days of Code:
   * Python: 10 Solutions
