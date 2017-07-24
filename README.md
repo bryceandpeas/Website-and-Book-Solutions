@@ -20,7 +20,7 @@
 [Hackerrank](https://www.hackerrank.com):
 * Python:      - 64 Solutions
 * C++:         -  9 Solutions
-* Linux Shell: -  1 Solution
+* Linux Shell: -  2 Solution
 
 * 10 Days of Statistics:
   * Python:    -  5 Solutions
