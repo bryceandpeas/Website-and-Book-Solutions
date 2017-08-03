@@ -23,7 +23,7 @@
 * Linux Shell: -  3 Solutions
 
 * 10 Days of Statistics:
-  * Python:    -  5 Solutions
+  * Python:    -  13 Solutions
 
 * 30 Days of Code:
   * Python:    - 10 Solutions
