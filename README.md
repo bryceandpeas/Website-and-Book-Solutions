@@ -8,7 +8,7 @@
 
 [Codewars Katas](https://www.codewars.com/)
 * Python:
-  * 8 Kyu - 115 Solutions
+  * 8 Kyu - 116 Solutions
   * 7 Kyu -   4 Soltuions
   * 6 Kyu -   2 Soltuions
   * 5 Kyu -   2 Soltuions
