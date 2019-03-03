@@ -1,4 +1,6 @@
-## Solutions to various website problems, lists and challenges. (Current Total: 345 Challenge Solutions)
+# Solutions to various website problems, lists and challenges. 
+
+### Current Total: 345 Challenge Solutions.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/126254b207de49d3afacc74de9b08a1a)](https://www.codacy.com/app/BryceFury/WebsiteSolutions?utm_source=github.com&utm_medium=referral&utm_content=BryceFury/WebsiteSolutions&utm_campaign=badger)
 [![codewars Badge](https://www.codewars.com/users/BryceFury/badges/micro)](https://www.codewars.com/users/BryceFury/)
