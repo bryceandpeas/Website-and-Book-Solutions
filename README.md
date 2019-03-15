@@ -38,14 +38,14 @@
 [Karan Projects](https://github.com/karan/Projects):
 * Python:      -  7 Solutions
 
-[Zhiwehu Python Programming Exercises](https://github.com/zhiwehu/Python-programming-exercises):
-* Python:      - 0 Solutions
-
 [Reddit Daily Programmer](https://www.reddit.com/r/dailyprogrammer/):
 * Python:      -  3 Solutions
 
 [Year Of Programming (2017)](https://github.com/YearOfProgramming/2017Challenges):
 * Python:      -  1 Solution
+
+[Zhiwehu Python Programming Exercises](https://github.com/zhiwehu/Python-programming-exercises):
+* Python:      - 10 Solutions
 
 ----------
 
