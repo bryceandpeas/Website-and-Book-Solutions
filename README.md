@@ -45,7 +45,7 @@
 * Python:      -  1 Solution
 
 [Zhiwehu Python Programming Exercises](https://github.com/zhiwehu/Python-programming-exercises):
-* Python:      - 20 Solutions
+* Python:      - 30 Solutions
 
 ----------
 
