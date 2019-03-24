@@ -1,6 +1,6 @@
 # Solutions to various website and book programming problems, lists and challenges. 
 
-### Current Total: 379 Solutions.
+### Current Total: 433 Solutions.
 
 ## Website
 
